@@ -6,26 +6,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thiago Jordão</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
 </head>
 
 <body>
   <header>
-    <a href="/index.html">Home</a>
-    <a href="">Contato</a>
+    <div class="logo">
+      <a href="/index.html"> <span class='text'> >$ cd home/ | </span></a>
+    </div>
+    <div class="menu-trigger" id="menu-trigger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav class="menu-hidde" id="menu-hidde">
+      <ul>
+        <li><a href="">Início</a></li>
+        <li><a href="">Sobre</a></li>
+        <li><a href="">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <img id="perfil" src="/img/perfil.jpeg" alt="">
 
-  <div class=sobre>
-    <p class="text-description">Olá, me chamo Thiago sou desenvolvedor web e estudante de engenharia, aqui vou mostrar um pouco do meu trabalho como desenvolvedor front-end.</p>
+
+  <div class="circle">
+    <img src="/img/perfil.jpeg" alt="">
   </div>
 
-  <footer>
-    <a class='icons' href="https://github.com/thiagojordao98" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width='50px' /></a>
+  <section id='sobre-min'>
+    <p class="redes">
+      <a href="https://github.com/thiagojordao98" target="_blank"><i class="devicon-github-original"></i>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/thiagojordao98/" target="_blank"><i class="devicon-linkedin-plain"></i>
+      </a>
+    </p>
+    <p class="text-decoretor">Olá, me chamo Thiago sou desenvolvedor web e estudante de engenharia, aqui vou mostrar um pouco do meu trabalho como desenvolvedor front-end.</p>
 
-    <a class='icons' href="https://linkedin.com/thiagojordao98/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" width='50px' />
-    </a>
+  </section>
+  <section id='projeto1'>
+    <p class="text-decoretor"> Projetos </p>
+  </section>
+
+  <footer>
+    <p class='text-decoretor'>Obrigado!</p>
   </footer>
 </body>
 
