@@ -1,11 +1,3 @@
-.header {
-  background: #fafafa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 20px;
-}
 .logo .text {
   color: #fafafa;
   display: flex;
